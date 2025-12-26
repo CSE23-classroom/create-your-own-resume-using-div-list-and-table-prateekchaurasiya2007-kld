@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID ASSINGMENT</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+  html,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .top{
+          display: grid;
+          box-sizing: border-box;
+          grid-template-rows: repeat(3,1fr);
+          background-color: white;
+          gap:10px;
+
+  }
+      
+  
+  #box{
+  background-color: cornflowerblue;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-rows: repeat(3,1fr);
+  gap: 10px;
+  }
+  .six{
+    display: grid;
+    gap: 10px;
+    text-align: center;
+  }
+    </style>
+</head>
+<body>
+    <div class="six">
+    <div class="top"></div>
+    <div id="box">LOGO</div>
+    <div id="box">HEADER</div>
+    <div Id="box">TEXT AREA</div>
+    </div>
+</body>
+</html>
